@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from "vue";
+import { ref, computed } from "vue";
 
 // 1. CONTRATOS DE TIPADO (TypeScript Estricto)
 interface Producto {
@@ -80,8 +80,6 @@ const decrementarStock = (id: number): void => {
     triggerAnimation(id, "down");
   }
 };
-
-import { ref, computed } from "vue"; // ← asegúrate de importar computed también
 
 // 6. PRECIO TOTAL REACTIVO
 const precioTotal = computed<number>(() =>
