@@ -1,3 +1,4 @@
+
 {
   "name": "app-vue",
   "private": true,
@@ -10,6 +11,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.8",
+    "pinia": "^3.0.4",
     "vue": "^3.5.34"
   },
   "devDependencies": {
